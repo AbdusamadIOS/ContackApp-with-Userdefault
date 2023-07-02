@@ -8,22 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		EEE55B302A0E62DF004A799E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE55B2F2A0E62DF004A799E /* AppDelegate.swift */; };
-		EEE55B322A0E62DF004A799E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE55B312A0E62DF004A799E /* SceneDelegate.swift */; };
-		EEE55B342A0E62DF004A799E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE55B332A0E62DF004A799E /* ViewController.swift */; };
-		EEE55B372A0E62DF004A799E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEE55B352A0E62DF004A799E /* Main.storyboard */; };
 		EEE55B392A0E62E0004A799E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEE55B382A0E62E0004A799E /* Assets.xcassets */; };
 		EEE55B3C2A0E62E0004A799E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEE55B3A2A0E62E0004A799E /* LaunchScreen.storyboard */; };
+		EEE55B452A0E6FC7004A799E /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE55B432A0E6FC7004A799E /* MainVC.swift */; };
+		EEE55B462A0E6FC7004A799E /* MainVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEE55B442A0E6FC7004A799E /* MainVC.xib */; };
+		EEE55B492A0E6FE4004A799E /* cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE55B472A0E6FE4004A799E /* cell.swift */; };
+		EEE55B4A2A0E6FE4004A799E /* cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEE55B482A0E6FE4004A799E /* cell.xib */; };
+		EEE55B4C2A0E700A004A799E /* Obyekt.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE55B4B2A0E700A004A799E /* Obyekt.swift */; };
+		EEE55B532A0E7C78004A799E /* AddContactVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE55B512A0E7C78004A799E /* AddContactVC.swift */; };
+		EEE55B542A0E7C78004A799E /* AddContactVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEE55B522A0E7C78004A799E /* AddContactVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EEE55B2C2A0E62DF004A799E /* ContackApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContackApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEE55B2F2A0E62DF004A799E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EEE55B312A0E62DF004A799E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EEE55B332A0E62DF004A799E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EEE55B362A0E62DF004A799E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EEE55B382A0E62E0004A799E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EEE55B3B2A0E62E0004A799E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EEE55B3D2A0E62E0004A799E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEE55B432A0E6FC7004A799E /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		EEE55B442A0E6FC7004A799E /* MainVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainVC.xib; sourceTree = "<group>"; };
+		EEE55B472A0E6FE4004A799E /* cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cell.swift; sourceTree = "<group>"; };
+		EEE55B482A0E6FE4004A799E /* cell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = cell.xib; sourceTree = "<group>"; };
+		EEE55B4B2A0E700A004A799E /* Obyekt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Obyekt.swift; sourceTree = "<group>"; };
+		EEE55B512A0E7C78004A799E /* AddContactVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactVC.swift; sourceTree = "<group>"; };
+		EEE55B522A0E7C78004A799E /* AddContactVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddContactVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +65,13 @@
 			isa = PBXGroup;
 			children = (
 				EEE55B2F2A0E62DF004A799E /* AppDelegate.swift */,
-				EEE55B312A0E62DF004A799E /* SceneDelegate.swift */,
-				EEE55B332A0E62DF004A799E /* ViewController.swift */,
-				EEE55B352A0E62DF004A799E /* Main.storyboard */,
+				EEE55B432A0E6FC7004A799E /* MainVC.swift */,
+				EEE55B442A0E6FC7004A799E /* MainVC.xib */,
+				EEE55B512A0E7C78004A799E /* AddContactVC.swift */,
+				EEE55B522A0E7C78004A799E /* AddContactVC.xib */,
+				EEE55B472A0E6FE4004A799E /* cell.swift */,
+				EEE55B482A0E6FE4004A799E /* cell.xib */,
+				EEE55B4B2A0E700A004A799E /* Obyekt.swift */,
 				EEE55B382A0E62E0004A799E /* Assets.xcassets */,
 				EEE55B3A2A0E62E0004A799E /* LaunchScreen.storyboard */,
 				EEE55B3D2A0E62E0004A799E /* Info.plist */,
@@ -125,9 +137,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEE55B542A0E7C78004A799E /* AddContactVC.xib in Resources */,
+				EEE55B462A0E6FC7004A799E /* MainVC.xib in Resources */,
+				EEE55B4A2A0E6FE4004A799E /* cell.xib in Resources */,
 				EEE55B3C2A0E62E0004A799E /* LaunchScreen.storyboard in Resources */,
 				EEE55B392A0E62E0004A799E /* Assets.xcassets in Resources */,
-				EEE55B372A0E62DF004A799E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +152,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EEE55B342A0E62DF004A799E /* ViewController.swift in Sources */,
 				EEE55B302A0E62DF004A799E /* AppDelegate.swift in Sources */,
-				EEE55B322A0E62DF004A799E /* SceneDelegate.swift in Sources */,
+				EEE55B4C2A0E700A004A799E /* Obyekt.swift in Sources */,
+				EEE55B492A0E6FE4004A799E /* cell.swift in Sources */,
+				EEE55B452A0E6FC7004A799E /* MainVC.swift in Sources */,
+				EEE55B532A0E7C78004A799E /* AddContactVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		EEE55B352A0E62DF004A799E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EEE55B362A0E62DF004A799E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		EEE55B3A2A0E62E0004A799E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -289,9 +297,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ContackApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Contact App";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -316,9 +325,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ContackApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Contact App";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
